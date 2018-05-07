@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/edit" android:icon="@android:drawable/ic_menu_more" app:showAsAction="never" android:title="Edit Reminder">
+    </item>
+    <item
+        android:id="@+id/delete"  app:showAsAction="never" android:title="Delete Reminder">
+    </item>
+</menu>
